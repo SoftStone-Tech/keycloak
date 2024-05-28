@@ -365,18 +365,30 @@ ul#kc-totp-supported-apps {
 }
 
 .login-pf-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    height: 100%;
+    padding-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #009E8E;
+    border-radius: var(--Size-Base-sizeMD, 20px);;
 }
 
 #kc-header-wrapper {
     width: 250px;
-    height: 200px;
+    height: 140px;
     background: url("../img/logo-thainakarin.svg") no-repeat bottom;
+}
+
+.login-pf-page-header {
+    text-align: center;
+}
+
+.login-pf-page .card-pf {
+    padding-top: 16px;
+    border-radius: var(--Size-Base-sizeMD, 20px);
+    background: #FFF;
+    box-shadow: 0px 109px 250px 0px rgba(169, 169, 169, 0.08), 0px 45.54px 140.79px 0px rgba(169, 169, 169, 0.12), 0px 24.35px 75.27px 0px rgba(169, 169, 169, 0.14), 0px 13.65px 42.2px 0px rgba(169, 169, 169, 0.17), 0px 7.25px 22.41px 0px rgba(169, 169, 169, 0.21), 0px 3px 9.33px 0px rgba(169, 169, 169, 0.29);
 }
 
 @media (min-width: 768px) {

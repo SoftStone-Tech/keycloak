@@ -376,7 +376,7 @@ ul#kc-totp-supported-apps {
 #kc-header-wrapper {
     width: 250px;
     height: 200px;
-    background: url("../img/logo-thainakarin.svg") no-repeat;
+    background: url("../img/logo-thainakarin.svg") no-repeat bottom;
 }
 
 @media (min-width: 768px) {

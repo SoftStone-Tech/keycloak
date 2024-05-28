@@ -2,7 +2,7 @@
    This clashes with the "keycloak-bg.png' background defined on the body below.
    Therefore the Patternfly background must be set to none. */
 .login-pf {
-    background: none;
+    background: #fff;
 }
 
 .login-pf body {

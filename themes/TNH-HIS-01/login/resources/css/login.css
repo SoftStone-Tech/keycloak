@@ -392,11 +392,13 @@ ul#kc-totp-supported-apps {
     background: #FFfffF;
 }
 
-.login-pf-header .kc-page-title {
+#kc-page-title {
+    font-weight: 400;
     color: #009E8E;
 }
 
 .pf-c-button.pf-m-primary {
+    border-radius: 8px;
     background-color: #009E8E;
 }
 

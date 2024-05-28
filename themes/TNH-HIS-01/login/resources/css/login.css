@@ -93,21 +93,6 @@ div.kc-logo-text span {
     display: none;
 }
 
-#kc-header {
-    color: #ededed;
-    overflow: visible;
-    white-space: nowrap;
-}
-
-#kc-header-wrapper {
-    font-size: 29px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    line-height: 1.2em;
-    padding: 62px 10px 20px;
-    white-space: normal;
-}
-
 #kc-content {
     width: 100%;
 }
@@ -425,27 +410,6 @@ ul#kc-totp-supported-apps {
 
     .login-pf body {
         background: white;
-    }
-
-    #kc-header {
-        padding-left: 15px;
-        padding-right: 15px;
-        float: none;
-        text-align: left;
-    }
-
-    #kc-header-wrapper {
-        font-size: 16px;
-        font-weight: bold;
-        color: #72767b;
-        letter-spacing: 0;
-    }
-
-    div.kc-logo-text {
-        margin: 0;
-        width: 150px;
-        height: 32px;
-        background-size: 100%;
     }
 
     #kc-form {

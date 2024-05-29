@@ -416,6 +416,10 @@ ul#kc-totp-supported-apps {
         background-position: left center;
         background-position-x: 5rem;
     }
+
+    .login-pf-page .card-pf {
+        border-radius: 0 20px 20px 0;
+    }
 }
 
 @media (min-width: 768px) {

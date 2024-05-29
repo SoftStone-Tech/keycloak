@@ -534,7 +534,7 @@ ul#kc-totp-supported-apps {
         max-width: none;
         margin-left: 0;
         margin-right: 0;
-        padding-top: 0;
+        padding-top: 20px;
         border-top: 0;
         box-shadow: 0 0;
     }

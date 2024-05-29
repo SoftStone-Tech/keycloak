@@ -3,6 +3,7 @@
    Therefore the Patternfly background must be set to none. */
 .login-pf {
     background: #fff;
+    background-image: none;
 }
 
 .login-pf body {

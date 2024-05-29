@@ -402,7 +402,8 @@ ul#kc-totp-supported-apps {
 
 @media (min-width: 560px) {
     .login-pf-page {
-        padding-top: 100px;
+        padding-top: 120px;
+        background-size: 200px 100px;
     }
 }
 

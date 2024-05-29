@@ -380,11 +380,12 @@ ul#kc-totp-supported-apps {
 }
 
 #kc-page-title {
-    font-weight: 400;
+    font-weight: 500;
     color: #009E8E;
 }
 
 .pf-c-button.pf-m-primary {
+    padding: 10px;
     border-radius: 8px;
     background-color: #009E8E;
 }

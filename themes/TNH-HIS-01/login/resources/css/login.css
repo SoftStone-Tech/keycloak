@@ -350,6 +350,10 @@ ul#kc-totp-supported-apps {
     border-color: transparent black transparent transparent;
 }
 
+.login-pf body {
+    background: white;
+}
+
 .login-pf-page {
     width: 75%;
     max-width: 450px;
@@ -413,10 +417,6 @@ ul#kc-totp-supported-apps {
 }
 
 @media (max-width: 767px) {
-
-    .login-pf body {
-        background: white;
-    }
 
     #kc-form {
         float: none;

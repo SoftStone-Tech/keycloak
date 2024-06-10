@@ -409,7 +409,7 @@ ul#kc-totp-supported-apps {
 
 @media (min-width: 1000px) { 
     .form-group > .pf-c-form-control,
-    .form-group > .pf-c-input-group {
+    .form-group .pf-c-input-group {
         min-height: 56px;
     }
 

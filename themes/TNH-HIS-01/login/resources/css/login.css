@@ -400,6 +400,10 @@ ul#kc-totp-supported-apps {
     padding-top: 20px;
 }
 
+.form-group > label {
+    margin-bottom: 4px;
+}
+
 .form-group > .pf-c-form-control {
     border: 1px solid #D0D5DD;
     border-radius: 8px;

@@ -401,6 +401,10 @@ ul#kc-totp-supported-apps {
     padding-top: 20px;
 }
 
+#kc-form-login > .form-group {
+    margin-bottom: 24px;
+}
+
 .form-group > label {
     margin-bottom: 4px;
 }

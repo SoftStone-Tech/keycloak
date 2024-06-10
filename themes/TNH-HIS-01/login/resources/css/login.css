@@ -386,7 +386,7 @@ ul#kc-totp-supported-apps {
 }
 
 #kc-page-title {
-    font-weight: 700;
+    font-weight: 500;
     color: #009E8E;
 }
 
@@ -435,7 +435,7 @@ ul#kc-totp-supported-apps {
     }
 
     .login-pf-page .card-pf {
-        padding: 48px 72px;
+        padding: 32px 56px;
         border-radius: 0 20px 20px 0;
     }
 }
@@ -444,14 +444,18 @@ ul#kc-totp-supported-apps {
     .login-pf-page {
         width: 980px;
         max-width: 980px;
-        padding-left: 400px;
+        padding-left: 480px;
         background-size: 320px 112px;
         background-position-x: 40px;
     }
-}
 
-@media (min-width: 1200px) { 
-   
+    .login-pf-page .card-pf {
+        padding: 48px 72px;
+    }
+
+    #kc-page-title {
+        font-weight: 700;
+    }
 }
 
 @media (min-width: 768px) {

@@ -408,10 +408,18 @@ ul#kc-totp-supported-apps {
 }
 
 @media (min-width: 1000px) { 
-    .form-group .pf-c-form-control,
-    .form-group .pf-c-input-group {
+    .form-group > .pf-c-form-control,
+    .form-group > .pf-c-input-group {
         min-height: 56px;
+    }
+
+
+    .form-group > .pf-c-form-control{
         border-radius: 8px;
+    }
+
+    .form-group > .pf-c-input-group > .pf-c-form-control {
+        border-radius: 8px 0px 0px 8px;
     }
 
     .login-pf-page {

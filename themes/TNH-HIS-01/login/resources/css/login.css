@@ -403,13 +403,11 @@ ul#kc-totp-supported-apps {
 .form-group > .pf-c-form-control {
     border: 1px solid #D0D5DD;
     border-radius: 8px;
-    min-height: 56px;
 }
 
 .form-group > .pf-c-input-group .pf-c-form-control {
     border: 1px solid #D0D5DD;
     border-radius: 8px 0px 0px 8px;
-    min-height: 56px;
 }
 
 .form-group > .pf-c-input-group .pf-c-button.pf-m-control {
@@ -437,6 +435,11 @@ ul#kc-totp-supported-apps {
     .login-pf-page .card-pf {
         padding: 32px;
         border-radius: 0 20px 20px 0;
+    }
+
+    .form-group > .pf-c-form-control,
+    .form-group > .pf-c-input-group .pf-c-form-control {
+        min-height: 56px;
     }
 }
 

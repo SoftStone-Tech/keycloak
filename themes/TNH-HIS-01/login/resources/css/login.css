@@ -96,6 +96,7 @@ div.kc-logo-text span {
 
 #kc-content {
     width: 100%;
+    max-width: 390px;
 }
 
 #kc-attempted-username {
@@ -459,7 +460,7 @@ ul#kc-totp-supported-apps {
     }
 
     .login-pf-page .card-pf {
-        padding: 48px 72px;
+        padding: 48px 55px;
     }
 
     #kc-page-title {

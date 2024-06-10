@@ -431,7 +431,7 @@ ul#kc-totp-supported-apps {
         padding-left: 350px;
         background-size: 250px 87px;
         background-position: left center;
-        background-position-x: 5rem;
+        background-position-x: 50px;
     }
 
     .login-pf-page .card-pf {

@@ -414,13 +414,9 @@ ul#kc-totp-supported-apps {
         min-height: 56px;
     }
 
-    .form-group > .pf-c-input-group {
-        border: 1px solid #D0D5DD;
-        border-radius: 8px;
-    }
-
-    .form-group > .pf-c-input-group > .pf-c-form-control {
+    .form-group > .pf-c-input-group .pf-c-form-control {
         min-height: 56px;
+        border: 1px solid #D0D5DD;
         border-radius: 8px 0px 0px 8px;
     }
 

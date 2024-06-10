@@ -440,16 +440,12 @@ ul#kc-totp-supported-apps {
     }
 }
 
-@media (min-width: 1180px) { 
+@media screen and (min-width: 1180px) { 
     .login-pf-page {
         max-width: 980px;
         padding-left: 400px;
         background-size: 320px 112px;
-        background-position-x: 5rem;
-    }
-
-    .login-pf-page .card-pf {
-       
+        background-position-x: 40px;
     }
 }
 

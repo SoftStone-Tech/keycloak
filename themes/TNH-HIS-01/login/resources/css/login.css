@@ -418,7 +418,7 @@ ul#kc-totp-supported-apps {
         border-radius: 8px 0px 0px 8px;
     }
 
-    .form-group > .pf-c-input-group .pf-c-button {
+    .form-group > .pf-c-input-group .pf-c-button.pf-m-control {
         border-radius: 0px 8px 8px 0px;
     }
 

@@ -391,7 +391,7 @@ ul#kc-totp-supported-apps {
 }
 
 .pf-c-button.pf-m-primary {
-    padding: 10px;
+    padding: 16px;
     border-radius: 8px;
     background-color: #009E8E;
 }
@@ -399,6 +399,23 @@ ul#kc-totp-supported-apps {
 .card-pf {
     padding-top: 20px;
 }
+
+.form-group > .pf-c-form-control {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    min-height: 56px;
+}
+
+.form-group > .pf-c-input-group .pf-c-form-control {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px 0px 0px 8px;
+    min-height: 56px;
+}
+
+.form-group > .pf-c-input-group .pf-c-button.pf-m-control {
+    border-radius: 0px 8px 8px 0px;
+}
+
 
 @media (min-width: 560px) {
     .login-pf-page {
@@ -408,22 +425,6 @@ ul#kc-totp-supported-apps {
 }
 
 @media (min-width: 1000px) { 
-    .form-group > .pf-c-form-control {
-        border: 1px solid #D0D5DD;
-        border-radius: 8px;
-        min-height: 56px;
-    }
-
-    .form-group > .pf-c-input-group .pf-c-form-control {
-        min-height: 56px;
-        border: 1px solid #D0D5DD;
-        border-radius: 8px 0px 0px 8px;
-    }
-
-    .form-group > .pf-c-input-group .pf-c-button.pf-m-control {
-        border-radius: 0px 8px 8px 0px;
-    }
-
     .login-pf-page {
         max-width: 750px;
         padding-top: 0px;

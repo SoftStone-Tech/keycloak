@@ -426,7 +426,7 @@ ul#kc-totp-supported-apps {
 }
 
 .form-group button.pf-c-button.pf-m-control {
-    border: 1px solid #D0D5DD;
+    border: none;
     border-radius: 0px 8px 8px 0px;
 }
 

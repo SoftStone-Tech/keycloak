@@ -405,6 +405,10 @@ ul#kc-totp-supported-apps {
     margin-bottom: 24px;
 }
 
+#kc-form-login > .kc-form-buttons {
+    font-size: 16px;
+}
+
 .form-group > label {
     margin-bottom: 4px;
 }
@@ -421,7 +425,8 @@ ul#kc-totp-supported-apps {
     min-height: 40px;
 }
 
-.form-group > .pf-c-input-group .pf-c-button.pf-m-control {
+.form-group button.pf-c-button.pf-m-control {
+    border: 1px solid #D0D5DD;
     border-radius: 0px 8px 8px 0px;
 }
 

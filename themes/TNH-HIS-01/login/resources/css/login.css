@@ -403,11 +403,13 @@ ul#kc-totp-supported-apps {
 .form-group > .pf-c-form-control {
     border: 1px solid #D0D5DD;
     border-radius: 8px;
+    min-height: 40px;
 }
 
 .form-group > .pf-c-input-group .pf-c-form-control {
     border: 1px solid #D0D5DD;
     border-radius: 8px 0px 0px 8px;
+    min-height: 40px;
 }
 
 .form-group > .pf-c-input-group .pf-c-button.pf-m-control {

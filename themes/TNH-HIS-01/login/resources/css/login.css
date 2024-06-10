@@ -441,7 +441,7 @@ ul#kc-totp-supported-apps {
 
     .form-group > .pf-c-form-control,
     .form-group > .pf-c-input-group .pf-c-form-control {
-        min-height: 56px;
+        min-height: 48px;
     }
 }
 
@@ -460,6 +460,11 @@ ul#kc-totp-supported-apps {
 
     #kc-page-title {
         font-weight: 700;
+    }
+
+    .form-group > .pf-c-form-control,
+    .form-group > .pf-c-input-group .pf-c-form-control {
+        min-height: 56px;
     }
 }
 

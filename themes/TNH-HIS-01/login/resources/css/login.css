@@ -443,16 +443,13 @@ ul#kc-totp-supported-apps {
 @media (min-width: 1180px) { 
     .login-pf-page {
         max-width: 980px;
-        padding-top: 0px;
-        padding-left: 477px;
+        padding-left: 400px;
         background-size: 320px 112px;
-        background-position: left center;
         background-position-x: 5rem;
     }
 
     .login-pf-page .card-pf {
-        padding: 48px 72px;
-        border-radius: 0 20px 20px 0;
+       
     }
 }
 
